@@ -71,10 +71,8 @@ public class ScratchGame {
 	                String symbol = getRandomSymbol();
 	    	        symbolsCount.put(symbol, symbolsCount.getOrDefault(symbol, 0) + 1);
 	                matrix[i][j] = symbol;
-	                System.out.print(matrix[i][j] + " ");
 	            }
 	        }
-	        System.out.println(" ");
 	        return matrix;
 	    }
 	    
